@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DTOs\CORREO\" />
+    <None Remove="DTOs\I_DET_ENTIDAD_PERMISOS_DEP\" />
+    <None Remove="DTOs\I_DET_ENTIDAD_PERMISOS_DEP\Request\" />
+    <None Remove="DTOs\I_DET_ENTIDAD_PERMISOS_DEP\Response\" />
+    <None Remove="DTOs\I_EMERGENCIA_VIAL_EVI\" />
+    <None Remove="DTOs\A_TIPO_EVENTO_INTERVENCION_TEI\" />
+    <None Remove="DTOs\I_EMERGENCIA_VIAL_TRAMO_ETR\" />
+    <None Remove="DTOs\I_EMERGENCIA_VIAL_EVENTO_EVE\" />
+    <None Remove="DTOs\I_EMERGENCIA_VIAL_PANELFOTO_EPF\" />
+    <None Remove="DTOs\I_EMERGENCIA_VIAL_FILE_EVF\" />
+    <None Remove="DTOs\DASHBOARD\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+</Project>

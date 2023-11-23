@@ -1,0 +1,37 @@
+2023-10-30 08:02:10.3446 WARN The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-10-30 08:02:10.3796 INFO Now listening on: https://localhost:7156
+2023-10-30 08:02:10.3849 INFO Now listening on: http://localhost:5285
+2023-10-30 08:02:10.3849 INFO Application started. Press Ctrl+C to shut down.
+2023-10-30 08:02:10.3849 INFO Hosting environment: Development
+2023-10-30 08:02:10.3849 INFO Content root path: D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api
+2023-10-30 08:09:41.2076 ERROR An unhandled exception has occurred while executing the request.
+2023-10-30 08:12:11.4274 WARN The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-10-30 08:12:11.4562 INFO Now listening on: https://localhost:7156
+2023-10-30 08:12:11.4562 INFO Now listening on: http://localhost:5285
+2023-10-30 08:12:11.4562 INFO Application started. Press Ctrl+C to shut down.
+2023-10-30 08:12:11.4562 INFO Hosting environment: Development
+2023-10-30 08:12:11.4562 INFO Content root path: D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api
+2023-10-30 08:12:30.4155 ERROR An unhandled exception has occurred while executing the request.
+2023-10-30 08:14:02.1819 WARN The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-10-30 08:14:02.2096 INFO Now listening on: https://localhost:7156
+2023-10-30 08:14:02.2150 INFO Now listening on: http://localhost:5285
+2023-10-30 08:14:02.2150 INFO Application started. Press Ctrl+C to shut down.
+2023-10-30 08:14:02.2150 INFO Hosting environment: Development
+2023-10-30 08:14:02.2150 INFO Content root path: D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api
+2023-10-30 08:14:29.2826 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-10-30 08:14:29.3281 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 08:14:29.3281 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Departamento'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 08:14:29.3281 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Distrito'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 08:14:29.3281 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Provincia'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 09:48:01.3650 ERROR Stopped program because of exception
+2023-10-30 09:51:40.1462 WARN The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-10-30 09:51:40.3093 INFO Now listening on: https://localhost:7156
+2023-10-30 09:51:40.3144 INFO Now listening on: http://localhost:5285
+2023-10-30 09:51:40.3144 INFO Application started. Press Ctrl+C to shut down.
+2023-10-30 09:51:40.3144 INFO Hosting environment: Development
+2023-10-30 09:51:40.3144 INFO Content root path: D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api
+2023-10-30 09:52:03.2776 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-10-30 09:52:03.3212 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 09:52:03.3212 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Departamento'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 09:52:03.3212 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Distrito'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 09:52:03.3212 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Provincia'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.

@@ -1,0 +1,75 @@
+2023-11-09 09:44:27.6970 WARN The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-11-09 09:44:27.7302 INFO Now listening on: https://localhost:7156
+2023-11-09 09:44:27.7302 INFO Now listening on: http://localhost:5285
+2023-11-09 09:44:27.7302 INFO Application started. Press Ctrl+C to shut down.
+2023-11-09 09:44:27.7302 INFO Hosting environment: Development
+2023-11-09 09:44:27.7302 INFO Content root path: D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api
+2023-11-09 09:48:52.7219 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-11-09 09:48:52.7753 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-09 09:48:52.7753 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Departamento'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-09 09:48:52.7753 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Distrito'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-09 09:48:52.7753 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Provincia'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-09 11:05:34.6628 ERROR Microsoft.Data.SqlClient.SqlException (0x80131904): Error al convertir el tipo de datos nvarchar a datetime.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderAsyncCallback(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at App.Infrastructure.Repository.CalendarioRepository.ObtieneFechaFinal(String fechaInicio, Int32 cantDias) in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Infrastructure\Repository\CalendarioRepository.cs:line 233
+   at App.Infrastructure.Repository.CalendarioRepository.ObtieneFechaFinal(String fechaInicio, Int32 cantDias) in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Infrastructure\Repository\CalendarioRepository.cs:line 248
+   at App.Application.Services.CalendarioService.ObtieneFechaFinal(String fechaInicio, Int32 cantDias) in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Application\Services\CalendarioService.cs:line 73
+   at App.Api.Controllers.CalendarioController.ObtieneFechaFinal(String fechaInicio, Int32 cantDias) in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api\Controllers\CalendarioController.cs:line 50
+ClientConnectionId:f3a3c0a8-1c85-4224-b919-3728f6b17e5d
+Error Number:8114,State:1,Class:16
+2023-11-09 11:08:24.8682 ERROR Microsoft.Data.SqlClient.SqlException (0x80131904): Error al convertir el tipo de datos nvarchar a datetime.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderAsyncCallback(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at App.Infrastructure.Repository.CalendarioRepository.ObtenerPorClave(String param) in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Infrastructure\Repository\CalendarioRepository.cs:line 156
+   at App.Infrastructure.Repository.CalendarioRepository.ObtenerPorClave(String param) in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Infrastructure\Repository\CalendarioRepository.cs:line 168
+   at App.Application.Services.CalendarioService.ObtenerPorClave(String param) in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Application\Services\CalendarioService.cs:line 57
+   at App.Api.Controllers.CalendarioController.ActualizarFeriado(CalendarioActualizaDTO param) in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api\Controllers\CalendarioController.cs:line 94
+ClientConnectionId:f3a3c0a8-1c85-4224-b919-3728f6b17e5d
+Error Number:8114,State:1,Class:16
+2023-11-09 12:59:59.5116 WARN The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-11-09 12:59:59.5684 INFO Now listening on: https://localhost:7156
+2023-11-09 12:59:59.5770 INFO Now listening on: http://localhost:5285
+2023-11-09 12:59:59.5770 INFO Application started. Press Ctrl+C to shut down.
+2023-11-09 12:59:59.5770 INFO Hosting environment: Development
+2023-11-09 12:59:59.5770 INFO Content root path: D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api
+2023-11-09 13:01:54.1322 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-11-09 13:01:54.6622 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-09 13:01:54.6622 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Departamento'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-09 13:01:54.6622 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Distrito'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-09 13:01:54.6622 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Provincia'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-09 13:03:35.2660 WARN The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-11-09 13:03:35.5222 INFO Now listening on: https://localhost:7156
+2023-11-09 13:03:35.5992 INFO Now listening on: http://localhost:5285
+2023-11-09 13:03:35.6033 INFO Application started. Press Ctrl+C to shut down.
+2023-11-09 13:03:35.6033 INFO Hosting environment: Development
+2023-11-09 13:03:35.6033 INFO Content root path: D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api
+2023-11-09 14:14:05.4830 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-11-09 14:14:05.5436 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-09 14:14:05.5436 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Departamento'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-09 14:14:05.5436 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Distrito'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-09 14:14:05.5436 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Provincia'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.

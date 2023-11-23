@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Validators\**" />
+    <EmbeddedResource Remove="Validators\**" />
+    <None Remove="Validators\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="3.3.5" />
+    <PackageReference Include="EPPlus" Version="6.2.3" />
+    <PackageReference Include="ClosedXML" Version="0.101.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\App.Domain\App.Domain.csproj" />
+    <ProjectReference Include="..\App.Infrastructure\App.Infrastructure.csproj" />
+    <ProjectReference Include="..\App.ModelDto\App.ModelDto.csproj" />
+    <ProjectReference Include="..\App.Utilities\App.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Interfaces\Correo\" />
+    <None Remove="Services\Correo\" />
+    <None Remove="Interfaces\Emergencias\" />
+    <None Remove="Services\Emergencias\" />
+    <None Remove="Interfaces\CurrentUser\" />
+    <None Remove="Services\CurrentUser\" />
+    <None Remove="Interfaces\Reportes\" />
+    <None Remove="Services\Reportes\" />
+    <None Remove="Interfaces\Dashboard\" />
+    <None Remove="Services\Dashboard\" />
+  </ItemGroup>
+</Project>

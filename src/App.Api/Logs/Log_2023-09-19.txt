@@ -1,0 +1,43 @@
+2023-09-19 15:42:27.4920 INFO Now listening on: https://localhost:7156
+2023-09-19 15:42:27.4920 INFO Now listening on: http://localhost:5285
+2023-09-19 15:42:27.4920 INFO Application started. Press Ctrl+C to shut down.
+2023-09-19 15:42:27.4920 INFO Hosting environment: Development
+2023-09-19 15:42:27.4920 INFO Content root path: D:\OneDrive\PROYECTOS\PVDAPI\fuentes1\src\App.Api
+2023-09-19 15:42:38.0685 DEBUG Ingreso en GetListarArticulos
+2023-09-19 15:42:38.3168 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-09-19 15:42:38.3515 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-19 21:36:36.9814 INFO Now listening on: https://localhost:7156
+2023-09-19 21:36:36.9814 INFO Now listening on: http://localhost:5285
+2023-09-19 21:36:36.9814 INFO Application started. Press Ctrl+C to shut down.
+2023-09-19 21:36:36.9814 INFO Hosting environment: Development
+2023-09-19 21:36:36.9814 INFO Content root path: D:\OneDrive\PROYECTOS\PVDAPI\fuentes1\src\App.Api
+2023-09-19 21:37:01.4318 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-09-19 21:37:01.4615 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-19 21:50:54.6420 INFO Now listening on: https://localhost:7156
+2023-09-19 21:50:54.6420 INFO Now listening on: http://localhost:5285
+2023-09-19 21:50:54.6420 INFO Application started. Press Ctrl+C to shut down.
+2023-09-19 21:50:54.6420 INFO Hosting environment: Development
+2023-09-19 21:50:54.6420 INFO Content root path: D:\OneDrive\PROYECTOS\PVDAPI\fuentes1\src\App.Api
+2023-09-19 21:51:07.1965 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-09-19 21:51:07.2305 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-19 21:56:18.5976 INFO Now listening on: https://localhost:7156
+2023-09-19 21:56:18.6004 INFO Now listening on: http://localhost:5285
+2023-09-19 21:56:18.6004 INFO Application started. Press Ctrl+C to shut down.
+2023-09-19 21:56:18.6004 INFO Hosting environment: Development
+2023-09-19 21:56:18.6004 INFO Content root path: D:\OneDrive\PROYECTOS\PVDAPI\fuentes1\src\App.Api
+2023-09-19 21:56:48.7768 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-09-19 21:56:48.8078 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-19 22:04:39.6865 INFO Now listening on: https://localhost:7156
+2023-09-19 22:04:39.6865 INFO Now listening on: http://localhost:5285
+2023-09-19 22:04:39.6865 INFO Application started. Press Ctrl+C to shut down.
+2023-09-19 22:04:39.6865 INFO Hosting environment: Development
+2023-09-19 22:04:39.6865 INFO Content root path: D:\OneDrive\PROYECTOS\PVDAPI\fuentes1\src\App.Api
+2023-09-19 22:06:50.7888 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-09-19 22:06:50.8238 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-19 22:11:45.9415 INFO Now listening on: https://localhost:7156
+2023-09-19 22:11:45.9449 INFO Now listening on: http://localhost:5285
+2023-09-19 22:11:45.9449 INFO Application started. Press Ctrl+C to shut down.
+2023-09-19 22:11:45.9449 INFO Hosting environment: Development
+2023-09-19 22:11:45.9449 INFO Content root path: D:\OneDrive\PROYECTOS\PVDAPI\fuentes1\src\App.Api
+2023-09-19 22:11:55.5130 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-09-19 22:11:55.5424 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.

@@ -1,0 +1,180 @@
+2023-09-29 13:04:33.0705 WARN The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-09-29 13:04:33.4622 INFO Now listening on: https://localhost:7156
+2023-09-29 13:04:33.6055 INFO Now listening on: http://localhost:5285
+2023-09-29 13:04:33.6055 INFO Application started. Press Ctrl+C to shut down.
+2023-09-29 13:04:33.6055 INFO Hosting environment: Development
+2023-09-29 13:04:33.6156 INFO Content root path: D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api
+2023-09-29 13:05:46.4495 ERROR System.InvalidOperationException: The entity type 'RedVialNacional' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IAsyncEnumerable<TEntity>.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at App.Infrastructure.Repository.RedVialNacionalRepository.Listar() in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Infrastructure\Repository\RedVialNacionalRepository.cs:line 67
+   at App.Application.Services.RedVialNacionalService.Listar() in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Application\Services\RedVialNacionalService.cs:line 60
+   at App.Api.Controllers.RedVialNacionalController.Listar() in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api\Controllers\RedVialNacionalController.cs:line 50
+2023-09-29 13:12:36.5107 WARN The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-09-29 13:12:36.5408 INFO Now listening on: https://localhost:7156
+2023-09-29 13:12:36.5408 INFO Now listening on: http://localhost:5285
+2023-09-29 13:12:36.5408 INFO Application started. Press Ctrl+C to shut down.
+2023-09-29 13:12:36.5408 INFO Hosting environment: Development
+2023-09-29 13:12:36.5408 INFO Content root path: D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api
+2023-09-29 13:13:34.1781 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-09-29 13:13:34.2396 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:13:34.2396 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Departamento'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:13:34.2396 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Distrito'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:13:34.2396 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Provincia'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:27:24.9436 ERROR AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[App.Domain.Entities.RedVialNacional, App.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[App.ModelDto.DTOs.RedVialNacionalDTO, App.ModelDto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+RedVialNacional -> RedVialNacionalDTO
+App.Domain.Entities.RedVialNacional -> App.ModelDto.DTOs.RedVialNacionalDTO
+   at lambda_method82(Closure, RedVialNacional, RedVialNacionalDTO, ResolutionContext)
+   at lambda_method24(Closure, Object, List`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method24(Closure, Object, List`1, ResolutionContext)
+   at App.Application.Services.RedVialNacionalService.Listar() in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Application\Services\RedVialNacionalService.cs:line 61
+   at App.Api.Controllers.RedVialNacionalController.Listar() in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api\Controllers\RedVialNacionalController.cs:line 50 Missing type map configuration or unsupported mapping.
+
+Mapping types:
+RedVialNacional -> RedVialNacionalDTO
+App.Domain.Entities.RedVialNacional -> App.ModelDto.DTOs.RedVialNacionalDTO
+2023-09-29 13:28:22.2267 ERROR AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[App.Domain.Entities.RedVialNacional, App.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[App.ModelDto.DTOs.RedVialNacionalDTO, App.ModelDto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+RedVialNacional -> RedVialNacionalDTO
+App.Domain.Entities.RedVialNacional -> App.ModelDto.DTOs.RedVialNacionalDTO
+   at lambda_method82(Closure, RedVialNacional, RedVialNacionalDTO, ResolutionContext)
+   at lambda_method24(Closure, Object, List`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method24(Closure, Object, List`1, ResolutionContext)
+   at App.Application.Services.RedVialNacionalService.Listar() in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Application\Services\RedVialNacionalService.cs:line 61
+   at App.Api.Controllers.RedVialNacionalController.Listar() in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api\Controllers\RedVialNacionalController.cs:line 50 Missing type map configuration or unsupported mapping.
+
+Mapping types:
+RedVialNacional -> RedVialNacionalDTO
+App.Domain.Entities.RedVialNacional -> App.ModelDto.DTOs.RedVialNacionalDTO
+2023-09-29 13:34:31.1455 WARN The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-09-29 13:34:31.1751 INFO Now listening on: https://localhost:7156
+2023-09-29 13:34:31.1799 INFO Now listening on: http://localhost:5285
+2023-09-29 13:34:31.1799 INFO Application started. Press Ctrl+C to shut down.
+2023-09-29 13:34:31.1799 INFO Hosting environment: Development
+2023-09-29 13:34:31.1799 INFO Content root path: D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api
+2023-09-29 13:34:54.1770 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-09-29 13:34:54.2279 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:34:54.2279 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Departamento'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:34:54.2279 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Distrito'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:34:54.2279 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Provincia'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:35:10.0584 ERROR AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[App.Domain.Entities.RedVialNacional, App.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[App.ModelDto.DTOs.RedVialNacionalDTO, App.ModelDto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+RedVialNacional -> RedVialNacionalDTO
+App.Domain.Entities.RedVialNacional -> App.ModelDto.DTOs.RedVialNacionalDTO
+   at lambda_method82(Closure, RedVialNacional, RedVialNacionalDTO, ResolutionContext)
+   at lambda_method81(Closure, Object, List`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method81(Closure, Object, List`1, ResolutionContext)
+   at App.Application.Services.RedVialNacionalService.Listar() in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Application\Services\RedVialNacionalService.cs:line 61
+   at App.Api.Controllers.RedVialNacionalController.Listar() in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api\Controllers\RedVialNacionalController.cs:line 50 Missing type map configuration or unsupported mapping.
+
+Mapping types:
+RedVialNacional -> RedVialNacionalDTO
+App.Domain.Entities.RedVialNacional -> App.ModelDto.DTOs.RedVialNacionalDTO
+2023-09-29 13:39:11.9749 ERROR AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[App.Domain.Entities.RedVialNacional, App.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[App.ModelDto.DTOs.RedVialNacionalDTO, App.ModelDto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+RedVialNacional -> RedVialNacionalDTO
+App.Domain.Entities.RedVialNacional -> App.ModelDto.DTOs.RedVialNacionalDTO
+   at lambda_method82(Closure, RedVialNacional, RedVialNacionalDTO, ResolutionContext)
+   at lambda_method81(Closure, Object, List`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method81(Closure, Object, List`1, ResolutionContext)
+   at App.Application.Services.RedVialNacionalService.Listar() in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Application\Services\RedVialNacionalService.cs:line 61
+   at App.Api.Controllers.RedVialNacionalController.Listar() in D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api\Controllers\RedVialNacionalController.cs:line 50 Missing type map configuration or unsupported mapping.
+
+Mapping types:
+RedVialNacional -> RedVialNacionalDTO
+App.Domain.Entities.RedVialNacional -> App.ModelDto.DTOs.RedVialNacionalDTO
+2023-09-29 13:42:19.7198 WARN The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-09-29 13:42:19.7572 INFO Now listening on: https://localhost:7156
+2023-09-29 13:42:19.7572 INFO Now listening on: http://localhost:5285
+2023-09-29 13:42:19.7572 INFO Application started. Press Ctrl+C to shut down.
+2023-09-29 13:42:19.7572 INFO Hosting environment: Development
+2023-09-29 13:42:19.7572 INFO Content root path: D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api
+2023-09-29 13:42:52.9112 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-09-29 13:42:52.9548 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:42:52.9548 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Departamento'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:42:52.9548 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Distrito'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:42:52.9548 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Provincia'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:54:37.7433 WARN The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-09-29 13:54:37.7863 INFO Now listening on: https://localhost:7156
+2023-09-29 13:54:37.8072 INFO Now listening on: http://localhost:5285
+2023-09-29 13:54:37.8072 INFO Application started. Press Ctrl+C to shut down.
+2023-09-29 13:54:37.8072 INFO Hosting environment: Development
+2023-09-29 13:54:37.8072 INFO Content root path: D:\PVD\Fase2023-3\Fuentes\ULTIMO\Api\src\App.Api
+2023-09-29 13:56:01.2218 WARN Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-09-29 13:56:01.2628 WARN No store type was specified for the decimal property 'Precio' on entity type 'Articulo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:56:01.2628 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Departamento'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:56:01.2628 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Distrito'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-29 13:56:01.2628 WARN No store type was specified for the decimal property 'Superficie' on entity type 'Provincia'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
